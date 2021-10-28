@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: proof
+# key: <p
+# --
+#+ATTR_HTML: :class proof
+#+begin_quote
+#+begin_details
+#+begin_summary
+*Proof* @@html: <span class="expand-icon"> [+] </span>@@
+#+end_summary
+$0
+#+end_details
+#+end_quote

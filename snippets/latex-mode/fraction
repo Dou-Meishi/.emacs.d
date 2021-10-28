@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: Dou Meishi
+# name: fraction
+# key: \f
+# --
+\frac{$1}{$2}$0

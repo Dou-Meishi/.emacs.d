@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: dmsProof
+# key: \dmsP
+# --
+\begin{dmsProof}
+  $0
+\end{dmsProof}

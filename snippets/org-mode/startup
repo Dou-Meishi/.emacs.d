@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: Dou Meishi
+# name: startup
+# key: <st
+# --
+#+STARTUP: $0

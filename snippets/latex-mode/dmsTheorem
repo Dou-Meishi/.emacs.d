@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: dmsTheorem
+# key: \dmsT
+# --
+\begin{dmsTheorem}[${1:Theorem}]{$2}$0
+\end{dmsTheorem}

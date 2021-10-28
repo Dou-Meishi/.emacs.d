@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: Dou Meishi
+# name: usepackage
+# key: \use
+# --
+\usepackage{$1}$0

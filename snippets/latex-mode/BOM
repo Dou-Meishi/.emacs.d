@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: BOM
+# key: bom
+# --
+%% -*- coding: utf-8 -*-
+$0

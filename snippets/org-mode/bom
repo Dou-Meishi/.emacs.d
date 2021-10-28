@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: bom
+# key: bom
+# --
+# -*- coding: utf-8 -*-
+#+TITLE: ${1:what the hell}
+#+Author: Dou Meishi
+#+STARTUP: indent
+#+STARTUP: overview
+#+HTML_LINK_HOME: 
+#+HTML_LINK_UP: 
+
+$0

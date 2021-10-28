@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: tiny-quote
+# key: <ti
+# --
+#+BEGIN_html
+<blockquote><small>
+$0
+</small></blockquote>
+#+END_html

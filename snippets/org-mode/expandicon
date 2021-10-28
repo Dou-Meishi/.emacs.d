@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: expandicon
+# key: expandicon
+# --
+@@html:<span class="expand-icon"> [+] </span>@@

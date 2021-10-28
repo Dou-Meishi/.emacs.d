@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: encode
+# key: enc
+# --
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}

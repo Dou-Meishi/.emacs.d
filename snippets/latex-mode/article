@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# contributor: Dou Meishi
+# name: article
+# key: art
+# --
+\documentclass[12pt]{article}
+
+$0
+
+\begin{document}
+
+
+
+\end{document}

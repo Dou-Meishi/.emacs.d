@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: linewidth
+# key: \lw
+# --
+\linewidth$0
