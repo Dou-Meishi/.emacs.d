@@ -1,3 +1,4 @@
 /elpa/
 /emacs-backup/
 /*.data
+/auto-save-list/

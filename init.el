@@ -38,6 +38,7 @@
  '(inhibit-startup-echo-area-message "dou")
  '(inhibit-startup-screen t)
  '(initial-major-mode 'org-mode)
+ '(initial-scratch-message nil)
  '(ispell-dictionary "american")
  '(org-bullets-bullet-list '("☯" "✿" "◉" "○"))
  '(org-cycle-separator-lines 1)
@@ -84,7 +85,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :background "#002b36" :foreground "#839496" :inverse-video nil :box nil :strike-through nil :extend nil :overline nil :underline nil :slant normal :weight medium :height 160 :width normal :foundry "WQYF" :family "文泉驿等宽微米黑"))))
+ '(default ((t (:inherit nil :stipple nil :background "#002b36" :foreground "#839496" :inverse-video nil :box nil :strike-through nil :extend nil :overline nil :underline nil :slant normal :weight semi-bold :height 158 :width normal :foundry "????" :family "文泉驿等宽微米黑"))))
  '(fixed-pitch ((t (:family "文泉驿等宽微米黑"))))
  '(italic ((t (:slant italic :family "Fira Sans"))))
  '(org-block ((t (:family "DejaVu Sans Mono"))))
@@ -102,6 +103,7 @@
  '(org-level-6 ((t (:inherit default :weight bold :font "微软雅黑"))))
  '(org-level-7 ((t (:inherit default :weight bold :font "微软雅黑"))))
  '(org-level-8 ((t (:inherit default :weight bold :font "微软雅黑"))))
+ '(org-table ((t (:foreground "#859900" :height 120 :family "Noto Sans Mono CJK SC"))))
  '(org-verbatim ((t (:foreground "#d33682" :family "DejaVu Sans Mono"))))
  '(variable-pitch ((t (:family "微软雅黑")))))
 
