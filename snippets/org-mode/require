@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: require
+# key: require
+# --
+#+begin_export html
+<div style="display: none;">
+\\(
+\\require{$1}
+\\)
+</div>
+#+end_export
