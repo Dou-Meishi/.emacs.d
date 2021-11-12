@@ -29,6 +29,7 @@
  '(confirm-nonexistent-file-or-buffer nil)
  '(cursor-in-non-selected-windows 'hollow)
  '(cursor-type '(bar . 4))
+ '(elpy-rpc-python-command "python3")
  '(font-use-system-font t)
  '(global-company-mode t)
  '(global-hl-line-mode t)
@@ -44,12 +45,14 @@
  '(org-cycle-separator-lines 1)
  '(org-ellipsis "↺")
  '(org-export-with-section-numbers nil)
+ '(org-hide-block-startup t)
  '(org-hide-emphasis-markers t)
  '(org-html-doctype "html5")
  '(org-html-head
    "<link rel=\"stylesheet\" type=\"text/css\" href=\"http://gongzhitaao.org/orgcss/org.css\"/>
 <link rel=\"stylesheet\" type=\"text/css\" href=\"https://dou-meishi.github.io/orgcss/worg.css\"/>
 <link rel=\"stylesheet\" type=\"text/css\" href=\"https://dou-meishi.github.io/orgcss/dou-org.css\"/>")
+ '(org-html-head-include-default-style nil)
  '(org-html-html5-fancy t)
  '(org-html-mathjax-options
    '((path "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js")
@@ -61,7 +64,8 @@
  '(org-html-postamble t)
  '(org-html-postamble-format '(("en" "<p class=\"date\">Last modified: %C</p>")))
  '(org-src-fontify-natively t)
- '(org-startup-folded t)
+ '(org-startup-folded 'content)
+ '(org-startup-indented t)
  '(org-todo-keyword-faces
    '(("TODO" :foreground "#dc322f" :weight extra-bold :family "微软雅黑")
      ("FOLLOW" :foreground "DarkOrange" :weight bold :family "微软雅黑")
@@ -149,3 +153,13 @@ If the new path's directories does not exist, create them."
 
 ;; case insensitive auto-completion
 (setq completion-ignore-case t)
+
+
+;; python mode
+;; (defun enable-jedi ()
+;;   (add-to-list 'company-backends 'company-jedi))
+;; (defun toggle-off-idle-company ()
+;;   (setq company-idle-delay 1000.0))
+;; (add-hook 'python-mode-hook 'enable-jedi)
+;; (elpy-enable)
+;; (setq elpy-rpc-backend "jedi")
