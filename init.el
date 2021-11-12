@@ -45,12 +45,14 @@
  '(org-cycle-separator-lines 1)
  '(org-ellipsis "↺")
  '(org-export-with-section-numbers nil)
+ '(org-hide-block-startup t)
  '(org-hide-emphasis-markers t)
  '(org-html-doctype "html5")
  '(org-html-head
    "<link rel=\"stylesheet\" type=\"text/css\" href=\"http://gongzhitaao.org/orgcss/org.css\"/>
 <link rel=\"stylesheet\" type=\"text/css\" href=\"https://dou-meishi.github.io/orgcss/worg.css\"/>
 <link rel=\"stylesheet\" type=\"text/css\" href=\"https://dou-meishi.github.io/orgcss/dou-org.css\"/>")
+ '(org-html-head-include-default-style nil)
  '(org-html-html5-fancy t)
  '(org-html-mathjax-options
    '((path "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js")
@@ -62,7 +64,8 @@
  '(org-html-postamble t)
  '(org-html-postamble-format '(("en" "<p class=\"date\">Last modified: %C</p>")))
  '(org-src-fontify-natively t)
- '(org-startup-folded t)
+ '(org-startup-folded 'content)
+ '(org-startup-indented t)
  '(org-todo-keyword-faces
    '(("TODO" :foreground "#dc322f" :weight extra-bold :family "微软雅黑")
      ("FOLLOW" :foreground "DarkOrange" :weight bold :family "微软雅黑")
