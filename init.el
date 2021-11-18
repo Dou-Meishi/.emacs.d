@@ -49,7 +49,7 @@
  '(org-hide-emphasis-markers t)
  '(org-html-doctype "html5")
  '(org-html-head
-   "<link rel=\"stylesheet\" type=\"text/css\" href=\"http://gongzhitaao.org/orgcss/org.css\"/>
+   "<link rel=\"stylesheet\" type=\"text/css\" href=\"https://gongzhitaao.org/orgcss/org.css\"/>
 <link rel=\"stylesheet\" type=\"text/css\" href=\"https://dou-meishi.github.io/orgcss/worg.css\"/>
 <link rel=\"stylesheet\" type=\"text/css\" href=\"https://dou-meishi.github.io/orgcss/dou-org.css\"/>")
  '(org-html-head-include-default-style nil)
